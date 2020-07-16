@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {Button,
-  
+import { Button, FormControl, Input, InputLabel } from '@material-ui/core';
 
-} from 'react-bootstrap';
 
 function App() {
   const [input,setInput]=useState("");
@@ -20,8 +17,11 @@ function App() {
     <div className="App">
       <h1>MESSENGER</h1>
       <form>
-        <input value={input} onChange={e=>setInput(e.target.value)}/>
-        <Button type="submit" onClick={sendMessage}>Send Message</Button>
+        <FormControl>
+          <InputLabel>Enter Message...</InputLabel>
+          <Input value={input} onChange={e=>setInput(e.target.value)}/>
+          <Button disabled={!input} variant="contained" color="primary" type="submit" onClick={sendMessage}>Send Message</Button>
+        </FormControl>
       </form>
 
       {
