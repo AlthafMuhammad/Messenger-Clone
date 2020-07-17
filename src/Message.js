@@ -11,6 +11,7 @@ const Message=forwardRef(({message,username},ref) => {
             <Card style={{borderRadius:'1.3em',lineHeight:'1.34'}}>
                 <CardContent className={isUser?'message__userCard' : 'message__guestCard'} style={{paddingTop:'6px',paddingRight:'12px',paddingBottom:'7px',paddingLeft:'12px'}}>
                     <Typography>
+                        
                         {message.username}: {message.message}
                     </Typography>
                 </CardContent>
