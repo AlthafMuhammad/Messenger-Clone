@@ -1,3 +1,16 @@
+.mess__username{
+    color: rgba(0, 0, 0, .40);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.28;
+    margin-bottom: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+    text-align: left;
+    margin-left: auto;
+}
+
 
 .message{
     margin-top: 1px;
