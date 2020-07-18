@@ -12,6 +12,10 @@
 }
 
 
+.message_container {
+	position: relative;
+	z-index : -1;
+}
 .message{
     margin-top: 1px;
     margin-right: 0px;
