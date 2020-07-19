@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Messenger-Clone/static/css/main.357d7af1.chunk.css",
+    "main.css": "/Messenger-Clone/static/css/main.cc7b0995.chunk.css",
     "main.js": "/Messenger-Clone/static/js/main.db70be49.chunk.js",
     "main.js.map": "/Messenger-Clone/static/js/main.db70be49.chunk.js.map",
     "runtime-main.js": "/Messenger-Clone/static/js/runtime-main.95c810cf.js",
@@ -8,15 +8,15 @@
     "static/js/2.617bfe0d.chunk.js": "/Messenger-Clone/static/js/2.617bfe0d.chunk.js",
     "static/js/2.617bfe0d.chunk.js.map": "/Messenger-Clone/static/js/2.617bfe0d.chunk.js.map",
     "index.html": "/Messenger-Clone/index.html",
-    "precache-manifest.3b131ff69fe702882609a9b275c771d7.js": "/Messenger-Clone/precache-manifest.3b131ff69fe702882609a9b275c771d7.js",
+    "precache-manifest.ced1c663ec21aca7b8b207d74b6ce2c2.js": "/Messenger-Clone/precache-manifest.ced1c663ec21aca7b8b207d74b6ce2c2.js",
     "service-worker.js": "/Messenger-Clone/service-worker.js",
-    "static/css/main.357d7af1.chunk.css.map": "/Messenger-Clone/static/css/main.357d7af1.chunk.css.map",
+    "static/css/main.cc7b0995.chunk.css.map": "/Messenger-Clone/static/css/main.cc7b0995.chunk.css.map",
     "static/js/2.617bfe0d.chunk.js.LICENSE.txt": "/Messenger-Clone/static/js/2.617bfe0d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.95c810cf.js",
     "static/js/2.617bfe0d.chunk.js",
-    "static/css/main.357d7af1.chunk.css",
+    "static/css/main.cc7b0995.chunk.css",
     "static/js/main.db70be49.chunk.js"
   ]
 }
