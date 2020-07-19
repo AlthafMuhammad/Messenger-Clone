@@ -7,7 +7,7 @@ import FlipMove from 'react-flip-move';
 const Message=React.forwardRef(({message,username},ref) => {
     const isUser= username===message.username;
     return (
-            <div>
+            <div className="message_container">
                 <div  ref={ref} className={`message ${isUser && 'message__user'}`} >
                 <div ref={ref} className="mess__username" >
                    
