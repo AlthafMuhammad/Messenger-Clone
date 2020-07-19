@@ -50,7 +50,7 @@ function App() {
           </form>
         </div>
 
-        <FlipMove>
+        <FlipMove className="messages_container" style={{'z-index': '-1'}}>
           {
             messages.map(({id,message})=>(
               <Message key={id} username={username} message={message}/>
